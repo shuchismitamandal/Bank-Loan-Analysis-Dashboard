@@ -45,5 +45,37 @@ This page serves as a **quick executive snapshot**, helping stakeholders monitor
 
 ![Summary Page](https://github.com/shuchismitamandal/Bank-Loan-Analysis-Dashboard/blob/main/Screenshots/Summary_Screenshot.png)
 
+###  📌 Overview Page – Setting the Stage  
+*Let’s set the context before diving deeper.*
+
+This section uncovers patterns in loan repayment behavior across borrower attributes and time.
+
+#### 📅 Monthly Trend of Total Amount Received
+- Loan recovery peaked in **December**, suggesting strong collection during that period.
+- There’s a **steady upward trend** between January to December, with mild fluctuations.
+- This hints at **seasonal repayment behavior** or the impact of policy changes around mid-2016.
+
+#### 🕒 Total Amount Received by Loan Term
+- **36-month loans** have a significantly higher recovery than 60-month ones.
+- This indicates **shorter-term loans are less risky** and bring in quicker repayments.
+
+#### 🏠 Recovery by House Ownership
+- Borrowers with a **Mortgage** contributed the highest repayments.
+- This suggests that individuals who are **still paying off homes** tend to be more consistent with loan recovery — possibly due to **higher financial discipline** or income stability.
+
+#### 👔 Recovery by Employment Length
+- People with **10+ years of employment** contributed the most to total recovery.
+- This shows that **job stability** directly correlates with better repayment behavior.
+
+#### 🎯 Recovery by Loan Purpose
+- **Debt consolidation** and **credit card payoff** loans resulted in the **highest amount recovered**.
+- These types of borrowers may be more motivated to repay as they're **trying to fix their credit situation** or reduce high-interest burdens.
+
+✅ **Overall takeaway**:  
+Shorter loan terms, experienced and stable borrowers, and loans meant for managing existing debt all contribute to **stronger repayment performance**. This gives lenders a clear lens to **refine risk assessment** and improve recovery strategies.
+
+![Overview page](https://github.com/shuchismitamandal/Bank-Loan-Analysis-Dashboard/blob/main/Screenshots/Overview_Screenshot.png)
+
+
 
 
