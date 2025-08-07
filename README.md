@@ -1,8 +1,8 @@
 # 📊Bank Loan Analysis Dashboard
-A dynamic, interactive Power BI dashboard built to analyze bank loan applications, funding performance, and borrower risk—focusing on loan quality, repayment trends, and borrower characteristics such as purpose, employment, and home ownership.
+A dynamic, interactive Power BI dashboard built to analyze bank loan applications, funding performance, and borrower risk—focusing on loan quality, repayment trends, and borrower characteristics such as purpose, employment, and home ownership. The dataset analysed in this dashboard is financial_loan dataset from Kaggle.
 
 ## 🎯Purpose of the Dashboard
-The Bank Loan Performance & Risk Analysis Dashboard is designed to provide a comprehensive overview of a financial institution’s loan portfolio. Its main goal is to help stakeholders understand the volume, quality, and financial outcomes of issued loans, enabling better decision-making around lending strategy, risk management, and operational efficiency.    
+Financial institutions often struggle to gain a clear, data-driven understanding of their loan portfolio's performance and associated risks. Without an effective way to track loan volume, repayment behavior, and financial outcomes, decision-makers face challenges in optimizing lending strategies, managing risk exposure, and improving operational efficiency. This project aims to address this gap by developing a Bank Loan Performance & Risk Analysis Dashboard that delivers a comprehensive view of the loan portfolio — enabling stakeholders to make informed, strategic decisions based on real-time insights.   
 
 ## 👩‍💻Who is it for?
 - **Loan Officers** and **Credit Risk Analysts** assessing loan quality and defaults.
@@ -11,70 +11,116 @@ The Bank Loan Performance & Risk Analysis Dashboard is designed to provide a com
 
 ## ❓Questions Answered
 
-- How many loan applications are being approved, and how many are actually getting funded?  
-- Are the loans being paid back on time, or are they turning into bad loans?
-- Which types of loans are most common — and are some loan purposes riskier than others?
-- Does a borrower’s employment history, home ownership, or income level impact loan performance?
-- Are we charging the right interest rates across different borrower segments and loan grades?
-- How is loan performance distributed across different U.S. states? Are there regions with higher default risk?
-- What is the average debt-to-income (DTI) ratio of borrowers, and is it affecting repayment?
+- How has the number of loan applications changed compared to the previous month?
+- Which types of loans are most commonly applied for, and which ones receive the most funding?
+- Is the bank generating more revenue than the amount it is lending out?
+- What is the trend in interest rates and debt-to-income (DTI) ratios over time?
+- Which customer segments (based on home ownership or credit grade) are considered low-risk or high-risk?
+- Are certain loan purposes or sub-grades more associated with defaults or bad loans?
+- How do different states perform in terms of loan repayment and default rates?
+- What patterns can be observed in installment amounts, interest rates, and the total recovered amount?
 
-## Dashboard Insights — A Story Told by Data
+
+##  Dashboard Insights — A Story Told by Data
 
 ### 🏠Summary Page – The Big Picture
 *Let’s start with the bird’s eye view.*
 
-#### 🟢 Good vs 🔴 Bad Loan Split:
-- A clear distinction between good (86.2%) and bad (13.8%) loans offers insight into **portfolio stability**.
-- Stakeholders can quickly assess **risk exposure** based on this visual split.
+This page captures the overall **health and performance of the bank’s lending portfolio**, offering a quick snapshot of how things are moving.
 
-#### 💸 Funded vs Recovered Amounts:
-- Total Funded: **$435.8M** | Total Recovered: **$473.1M**
-- The recovered amount exceeding funded suggests **strong collection performance**, aided by timely repayments or interest inflow.
+- A total of **38.6K loan applications** have been processed so far, with a **Month-to-Date (MTD)** growth of **4.3K** and a **Month-over-Month (MoM)** increase of **6.9%** — showing consistent loan demand.
+  
+- The bank has **funded $435.8M** in loans so far, with **$473.1M recovered** — a **positive indicator** of strong collection efforts. The MTD recovery ($58.1M) outpaces funding ($54.0M), which reflects **solid cash inflow**.
 
-#### 📌 Key Financial Indicators (MTD & MOM):
-- Includes **Total Loan Applications**, **Funded Amount**, **Amount Received**, **Avg. Interest Rate**, and **Avg. DTI**.
-- MTD and MoM figures help track **short-term progress** and growth momentum.
+- In terms of portfolio quality:
+  - **86.2% of loans are categorized as Good Loans**, comprising **33.2K applications**, receiving **$370.2M in funding**, and recovering **$435.8M**.
+  - Only **13.8% are Bad Loans**, with **5.3K applications**, funded at **$65.5M**, and only **$37.3M recovered**, indicating a **significant drop-off** in repayment from risky segments.
 
-#### 📥 Loan Status Drilldown:
-- Breaks down loans by status — Current, Fully Paid, Charged Off.
-- Useful to identify where money is tied up, what’s recovered, and where losses are incurred.
+- The average interest rate stands at **12.0%**, and the average DTI (Debt-to-Income ratio) is **13.3%**, both of which are within a reasonable lending range. This implies **controlled risk** in borrower profiles.
 
-✅ **Why it matters**:  
-This page serves as a **quick executive snapshot**, helping stakeholders monitor performance, risk, and revenue all in one glance.
+-  From the loan status breakdown:
+  - **32K+ loans have been fully paid**, representing a **majority of the portfolio**.
+  - **5.3K loans have been charged off**, aligning with the bad loan percentage.
+  - Only **~1.1K loans are currently active**, which means **most loans have already matured or been closed**.
+
+ **Overall**, the dashboard shows a **healthy lending portfolio** with a strong share of good loans, **effective recovery**, and **growing demand** — making it a positive signal for stakeholders.
 
 ![Summary Page](https://github.com/shuchismitamandal/Bank-Loan-Analysis-Dashboard/blob/main/Screenshots/Summary_Screenshot.png)
 
-###  📌 Overview Page – Setting the Stage  
-*Let’s set the context before diving deeper.*
+### 🧭 Overview Page – Lending Patterns at a Glance  
+*Let’s zoom in to understand the customer trends.*
 
-This section uncovers patterns in loan repayment behavior across borrower attributes and time.
+This page dives deeper into how customers are interacting with the bank — who’s borrowing, when they’re borrowing, and for what.
 
-#### 📅 Monthly Trend of Total Amount Received
-- Loan recovery peaked in **December**, suggesting strong collection during that period.
-- There’s a **steady upward trend** between January to December, with mild fluctuations.
-- This hints at **seasonal repayment behavior** or the impact of policy changes around mid-2016.
+- **Monthly Trend**:  
+  Loan applications have shown a **steady upward trend throughout the year**, starting at **2.3K in January** and reaching a peak of **4.3K in December**. This reflects growing demand, possibly due to **seasonal factors or increasing customer confidence**.
 
-#### 🕒 Total Amount Received by Loan Term
-- **36-month loans** have a significantly higher recovery than 60-month ones.
-- This indicates **shorter-term loans are less risky** and bring in quicker repayments.
+- **Term Preference**:  
+  A significant **73.2% of applicants (28K)** opted for **60-month loans**, while only **26.8% (10K)** chose the 36-month option — suggesting customers prefer **lower monthly payments** and **longer repayment flexibility**, even if it means paying more interest.
 
-#### 🏠 Recovery by House Ownership
-- Borrowers with a **Mortgage** contributed the highest repayments.
-- This suggests that individuals who are **still paying off homes** tend to be more consistent with loan recovery — possibly due to **higher financial discipline** or income stability.
+- **By Employment Length**:  
+  - Those with **10+ years of experience** made up the **largest segment (8.9K applications)** — indicating that **financially stable and experienced individuals** are the most active borrowers.
+  - Applicants with **<1 to 5 years of experience** also make up a decent share (between 3.2K to 4.6K), showing **diverse borrower profiles**.
+  - Interestingly, **those with 6 years experience** are the least active (2.2K), which could reflect job switching or career transitions.
 
-#### 👔 Recovery by Employment Length
-- People with **10+ years of employment** contributed the most to total recovery.
-- This shows that **job stability** directly correlates with better repayment behavior.
+- **Loan Purpose**:  
+  - **Debt consolidation** is the **top reason**, with **18K applications**, followed by **credit card payoff (5K)** and **others (4K)**.  
+    This shows most borrowers are looking to **manage or reduce existing high-interest debt**.
+  - Less common but notable purposes include **home improvement (3K)**, **major purchases (2K)**, and **small business needs (2K)** — suggesting some borrowers are also using loans for **value-adding investments**.
 
-#### 🎯 Recovery by Loan Purpose
-- **Debt consolidation** and **credit card payoff** loans resulted in the **highest amount recovered**.
-- These types of borrowers may be more motivated to repay as they're **trying to fix their credit situation** or reduce high-interest burdens.
+- **Home Ownership Status**:  
+  - Applicants who **rent (18K)** slightly outnumber those with **mortgages (17K)**.  
+    This hints at a large share of **non-homeowners seeking financial support**, possibly due to higher monthly expenses or lack of collateral.
+  - Very few applicants own homes outright, indicating **mortgaged and renting individuals form the core of the borrower base**.
 
-✅ **Overall takeaway**:  
-Shorter loan terms, experienced and stable borrowers, and loans meant for managing existing debt all contribute to **stronger repayment performance**. This gives lenders a clear lens to **refine risk assessment** and improve recovery strategies.
+✅ **In a nutshell**, this page paints a picture of a growing and diverse borrower base — mostly renters or mortgaged individuals, experienced employees, and debt-conscious citizens — all driving the bank’s lending activity upward.
 
 ![Overview page](https://github.com/shuchismitamandal/Bank-Loan-Analysis-Dashboard/blob/main/Screenshots/Overview_Screenshot.png)
+
+### 📋 Details Page – Zooming Into Each Loan  
+*Let’s shift from the big picture to the fine print.*
+
+This page gives a **granular view of every single loan** issued — including its purpose, interest rate, installment, repayment, and the borrower’s profile. It's the **backbone of loan-level analysis**, enabling pattern discovery and risk profiling.
+
+#### 🔎 What You Can Explore Here:
+
+- **Loan Purpose**:  
+  From **credit cards, small businesses, and education** to **weddings and vacations**, this report spans a variety of borrower needs — giving insights into **which loan types are most common and profitable**.
+
+- **Home Ownership Status**:  
+  Borrowers fall into three categories: **OWN, RENT, and MORTGAGE** — useful to evaluate **default likelihood** based on ownership.
+
+- **Credit Grade & Sub-Grade**:  
+  - Grades range from **A (low risk)** to **G (high risk)**.  
+  - Sub-grades (e.g., A1 to A5, C1 to C5) allow further segmentation.  
+  This data is vital for identifying how **interest rates** and **repayment success** vary across creditworthiness levels.
+
+- **Loan Issue Date**:  
+  Helps track performance over time and analyze **monthly trends**.
+
+- **Funded Amount vs. Amount Received**:  
+  Every record shows how much was **disbursed and recovered**. For example:
+  - Loan ID **164346** funded **$500** and recovered **$565**, showing a **13% gain**.
+  - Loan ID **311591** (credit card, Grade A1) recovered **$777** on a **$725 loan** — another strong performer.
+  
+- **Interest Rate & Installment**:  
+  - Rates range from **7% to 12%** in this snapshot, based on risk profile.  
+  - Monthly installments differ based on term, amount, and interest — some nearing **$32/month**, such as ID **263677**.
+
+![Details Page](https://github.com/shuchismitamandal/Bank-Loan-Analysis-Dashboard/blob/main/Screenshots/Details_Screenshot.png)
+
+##  Tech Stack
+
+The dashboard was built using the following tools and technologies:
+- Power BI Desktop – Main data visualization platform used for report creation.
+- DAX (Data Analysis Expressions) – Used for calculated measures such as MTD, MOM calculations etc
+- Data Modeling – Relationships established among tables (loan_report which is the original dataset and date table which was created manually) 
+- File Format – .pbix for development and .png for dashboard previews.
+
+## Data Source
+
+This dashboard was built using the Financial Loan Dataset sourced from Kaggle, comprising a total of 38,576 loan records. The dataset includes detailed information on loan status, borrower demographics, financial metrics, and repayment behavior — providing a solid foundation for in-depth performance and risk analysis.
+
 
 
 
