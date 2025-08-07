@@ -113,8 +113,8 @@ This page gives a **granular view of every single loan** issued — including it
 
 The dashboard was built using the following tools and technologies:
 - Power BI Desktop – Main data visualization platform used for report creation.
-- DAX (Data Analysis Expressions) – Used for calculated measures such as MTD, MOM calculations etc
-- Data Modeling – Relationships established among tables (loan_report which is the original dataset and date table which was created manually) 
+- DAX (Data Analysis Expressions) – Used for calculated measures such as MTD, MOM calculations etc.
+- Data Modeling – Relationships established among tables (loan_report which is the original dataset and date table which was created manually). 
 - File Format – .pbix for development and .png for dashboard previews.
 
 ## Data Source
