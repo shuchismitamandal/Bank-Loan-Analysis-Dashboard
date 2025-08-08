@@ -44,6 +44,8 @@ This page captures the overall **health and performance of the bank’s lending 
   - Only **~1.1K loans are currently active**, which means **most loans have already matured or been closed**.
 
  **Overall**, the dashboard shows a **healthy lending portfolio** with a strong share of good loans, **effective recovery**, and **growing demand** — making it a positive signal for stakeholders.
+ 
+ *Here's a visual representation of the Summary page*
 
 ![Summary Page](https://github.com/shuchismitamandal/Bank-Loan-Analysis-Dashboard/blob/main/Screenshots/Summary_Screenshot.png)
 
@@ -74,6 +76,8 @@ This page dives deeper into how customers are interacting with the bank — who�
   - Very few applicants own homes outright, indicating **mortgaged and renting individuals form the core of the borrower base**.
 
 ✅ **In a nutshell**, this page paints a picture of a growing and diverse borrower base — mostly renters or mortgaged individuals, experienced employees, and debt-conscious citizens — all driving the bank’s lending activity upward.
+
+*Here's a visual representation of the Overview page*
 
 ![Overview page](https://github.com/shuchismitamandal/Bank-Loan-Analysis-Dashboard/blob/main/Screenshots/Overview_Screenshot.png)
 
@@ -106,6 +110,8 @@ This page gives a **granular view of every single loan** issued — including it
 - **Interest Rate & Installment**:  
   - Rates range from **7% to 12%** in this snapshot, based on risk profile.  
   - Monthly installments differ based on term, amount, and interest — some nearing **$32/month**, such as ID **263677**.
+
+*Here's a visual representation of the Details page*
 
 ![Details Page](https://github.com/shuchismitamandal/Bank-Loan-Analysis-Dashboard/blob/main/Screenshots/Details_Screenshot.png)
 
