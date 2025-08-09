@@ -47,7 +47,7 @@ This page captures the overall **health and performance of the bank’s lending 
  
  *Here's a visual representation of the Summary page*
 
-![Summary Page](https://github.com/shuchismitamandal/Bank-Loan-Analysis-Dashboard/blob/main/Screenshots/Summary_Screenshot.png)
+![Summary Page](https://github.com/shuchismitamandal/Bank-Loan-Analysis-Dashboard/blob/main/Screenshots/Summary.gif)
 
 ### 🧭 Overview Page – Lending Patterns at a Glance  
 *Let’s zoom in to understand the customer trends.*
@@ -79,7 +79,7 @@ This page dives deeper into how customers are interacting with the bank — who�
 
 *Here's a visual representation of the Overview page*
 
-![Overview page](https://github.com/shuchismitamandal/Bank-Loan-Analysis-Dashboard/blob/main/Screenshots/Overview_Screenshot.png)
+![Overview page](https://github.com/shuchismitamandal/Bank-Loan-Analysis-Dashboard/blob/main/Screenshots/Overview.gif)
 
 ### 📋 Details Page – Zooming Into Each Loan  
 *Let’s shift from the big picture to the fine print.*
@@ -113,7 +113,7 @@ This page gives a **granular view of every single loan** issued — including it
 
 *Here's a visual representation of the Details page*
 
-![Details Page](https://github.com/shuchismitamandal/Bank-Loan-Analysis-Dashboard/blob/main/Screenshots/Details_Screenshot.png)
+![Details Page](https://github.com/shuchismitamandal/Bank-Loan-Analysis-Dashboard/blob/main/Screenshots/Details.gif)
 
 ##  Tech Stack
 
