@@ -2,7 +2,7 @@
 A dynamic, interactive Power BI dashboard built to analyze bank loan applications, funding performance, and borrower risk—focusing on loan quality, repayment trends, and borrower characteristics such as purpose, employment, and home ownership. The dataset analysed in this dashboard is financial_loan dataset from Kaggle.
 
 ## 🎯Purpose of the Dashboard
-Financial institutions often struggle to gain a clear, data-driven understanding of their loan portfolio's performance and associated risks. Without an effective way to track loan volume, repayment behavior, and financial outcomes, decision-makers face challenges in optimizing lending strategies, managing risk exposure, and improving operational efficiency. This project aims to address this gap by developing a Bank Loan Performance & Risk Analysis Dashboard that delivers a comprehensive view of the loan portfolio — enabling stakeholders to make informed, strategic decisions based on real-time insights.   
+Financial institutions often struggle to gain a clear, data-driven understanding of their loan portfolio's performance and associated risks. Without an effective way to track loan volume, repayment behavior, and financial outcomes, decision-makers face challenges in optimizing lending strategies, managing risk exposure, and improving operational efficiency. This project aims to address this gap by developing a Bank Loan Performance & Risk Analysis Dashboard that delivers a comprehensive view of the loan portfolio - enabling stakeholders to make informed, strategic decisions based on real-time insights.   
 
 ## 👩‍💻Who is it for?
 - **Loan Officers** and **Credit Risk Analysts** assessing loan quality and defaults.
