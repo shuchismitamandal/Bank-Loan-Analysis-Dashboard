@@ -21,9 +21,9 @@ Financial institutions often struggle to gain a clear, data-driven understanding
 - What patterns can be observed in installment amounts, interest rates, and the total recovered amount?
 
 
-##  Dashboard Insights — A Story Told by Data
+##  Dashboard Insights - A Story Told by Data
 
-### 🏠Summary Page – The Big Picture
+### 🏠Summary Page - The Big Picture
 *Let’s start with the bird’s eye view.*
 
 This page captures the overall **health and performance of the bank’s lending portfolio**, offering a quick snapshot of how things are moving.
@@ -49,7 +49,7 @@ This page captures the overall **health and performance of the bank’s lending 
 
 ![Summary Page](https://github.com/shuchismitamandal/Bank-Loan-Analysis-Dashboard/blob/main/Screenshots/Summary.gif)
 
-### 🧭 Overview Page – Lending Patterns at a Glance  
+### 🧭 Overview Page - Lending Patterns at a Glance  
 *Let’s zoom in to understand the customer trends.*
 
 This page dives deeper into how customers are interacting with the bank — who’s borrowing, when they’re borrowing, and for what.
@@ -81,7 +81,7 @@ This page dives deeper into how customers are interacting with the bank — who�
 
 ![Overview page](https://github.com/shuchismitamandal/Bank-Loan-Analysis-Dashboard/blob/main/Screenshots/Overview.gif)
 
-### 📋 Details Page – Zooming Into Each Loan  
+### 📋 Details Page - Zooming Into Each Loan  
 *Let’s shift from the big picture to the fine print.*
 
 This page gives a **granular view of every single loan** issued — including its purpose, interest rate, installment, repayment, and the borrower’s profile. It's the **backbone of loan-level analysis**, enabling pattern discovery and risk profiling.
